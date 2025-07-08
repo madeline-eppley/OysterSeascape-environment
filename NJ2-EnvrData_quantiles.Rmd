@@ -1,0 +1,225 @@
+---
+title: "NJ2 - Processed Environmental Data"
+author: "Madeline Eppley"
+date: "8/18/2023"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+setwd("/Users/madelineeppley/GitHub/EasternOysterEnvData/2022_SiteEnvironmentData")
+```
+
+### Load required packages. 
+```{r}
+library("dplyr") #Used for working with data frames
+library("lubridate") #Used for time-date conversions
+library("readr") #Used to read the CSV file
+library("ggplot2") 
+```
+
+### Note the date of data download and source. All available data should be used for each site regardless of year. Note from the CSV file how often the site was sampled, and if there are replicates in the data. Also describe if the sampling occurred at only low tide, only high tide, or continuously.  
+```{r}
+#Data was downloaded on 8/18/2023
+#Source - https://cema.udel.edu/applications/waterquality/
+#The site was sampled once per month, on average, at random (not the same day every month). 
+
+#Create text strings with metadata information that we want to include in the final data frame. 
+download_date <- ("08-18-2023")
+source_description <- ("Delaware Water Quality - CEMA at University of Delaware")
+site_name <- ("NJ2") #Use site code with site number based on lat position and state
+collection_type <- ("monthly")
+```
+
+### Use the file path name in your working directory or desktop, see example below. Or, import data set through the "Files" window in R studio. Store the file in a variable with the "raw_ID_Site" format. If salinity and temperature data are in separate files, read in both and store them with "_sal" or "_temp" in the variable names. 
+```{r}
+#The file we will be working with is from Hope Creek, NJ. 
+raw_NJ2 <- read_csv("/Users/madelineeppley/GitHub/EasternOysterEnvData/2022_SiteEnvironmentData/NJ2-raw.csv")
+
+# View how the data is stored. Note the variable names and the format and units that the data are stored in.  
+spec(raw_NJ2)
+View(raw_NJ2)
+```
+
+### Start with the date and time of collection. We will use the lubridate package to standardize all values into the date-time format called POSIXct. This format stores the date and time in number of seconds since a past point (1/1/1970). This makes comparisons easy and helps to standardizes values. 
+```{r}
+#Convert to POSIXct format. Store it into a column named datetime in the data frame. Use the year-month-day hours:minutes:seconds format. 
+raw_NJ2$datetime <- as.POSIXct(raw_NJ2$timestamp, format = "%z-%m-%d %I:%M:%S")
+
+#Print the new data frame and examine to make sure the new datetime column is in the correct format. 
+print(raw_NJ2)
+```
+
+### Analyze the ranges of all of our variables of interest - time, salinity, and temperature. Make sure that the latitude and longitude values are consistent for a static collection site. This is a quick check so we can determine how to conduct the next filtering step. 
+```{r}
+#Standardize column and variable names. We will use "temp" for temperature in degrees C, "salinity" for salinity in parts per thousand (ppt), "lat" for latitude in degrees, and "lon" for longitude in degrees. 
+#Use the dyplr format to rename multiple columns in the format "dataframe %>% rename("new name 1" = "old name 1", "new name 2", "old name 2")
+raw_NJ2 <- raw_NJ2 %>% rename("temp" = "water_temp_value", "salinity" = "salinity_value")
+
+#Remove some rows that have NA's
+raw_NJ2 <- raw_NJ2[-c(117, 129, 130),]
+
+#Print the range (minimum and maximum) of dates of data collection. 
+print(range(raw_NJ2$datetime))
+
+#Print the range (minimum and maximum) of the salinity values. 
+print(range(raw_NJ2$salinity))
+
+#Print the range (minimum and maximum) of the temperature values.
+print(range(raw_NJ2$temp))
+
+
+#Store variables that we will include in the final data frame
+lat <- 39.455
+lon <- -75.560
+firstyear <- 2005
+finalyear <- 2022
+```
+
+### Filter any of the variables that have data points outside of normal range. We will use 0-40 as the accepted range for salinity (ppt) and temperature (C) values. Note, in the summer, salinity values can sometimes exceed 40. Check to see if there are values above 40. In this case, adjust the range or notify someone that the site has particularly high salinity values. 
+```{r}
+#Filter the data between the values of 0 and 40 for both salinity and temperature. 
+filtered_NJ2 <- raw_NJ2 %>%
+    filter(between(salinity, 0, 40) & between(temp, 0, 40))
+
+# Sanity check - print the ranges to ensure values are filtered properly. We can see that the ranges for both are now in the appropriate range.  
+print(summary(filtered_NJ2$salinity))
+print(summary(filtered_NJ2$temp))
+
+#Store our data into a variable name with just the site name. 
+NJ2 <- filtered_NJ2
+
+```
+
+### Visualize the salinity, temperature, and date ranges over time. This can help us see if there are any anomalies or gaps in the data and make sure the filtering was done correctly. Sanity check - do the temperature and salinity ranges look appropriate for the geography of the site (ex. near full ocean salinity for coastal sites, lower salinity for estuaries or near rivers)?
+
+```{r salinity-plot}
+salplot <- ggplot(NJ2, aes(x = datetime)) +
+    geom_line(aes(y = salinity, color = "Salinity (ppt)")) +
+    ylim(0,40) +
+    labs(x = "Time", y = "Salinity ppt", title = "Salinity Plot for NJ2 - Hope Creek") +
+    scale_color_manual(values = c("Salinity (ppt)" = "blue")) +
+    theme_minimal()
+
+salplot
+```
+
+
+```{r temperature-plot}
+tempplot <- ggplot(NJ2, aes(x = datetime)) +
+    geom_line(aes(y = temp, color = "Temperature (C)")) +
+    ylim(0, 45) +
+    labs(x = "Time", y = "Temperature C", title = "Temperature Plot for NJ2 - Hope Creek") +
+    scale_color_manual(values = c( "Temperature (C)" = "red")) +
+    theme_minimal()
+
+
+tempplot
+```
+
+### We need to calculate the mean, maximum, and minimum values for salinity and temperature per month and year. First make two data frames to contain each of the annual and monthly averages.
+```{r}
+#Calculate the mean, maximum, and minimum values for salinity and temperature for each month. 
+NJ2_envrmonth <- NJ2 %>%
+    mutate(year = year(datetime), month = month(datetime)) %>%
+    group_by(year, month) %>%
+    summarise(
+      min_salinity = min(salinity),
+      max_salinity = max(salinity),
+      mean_salinity = mean(salinity),
+      length_salinity = length(salinity),
+      min_temp = min(temp),
+      max_temp = max(temp),
+      mean_temp = mean(temp),
+      length_temp = length(temp))
+  
+print(NJ2_envrmonth)
+
+
+#Calculate the mean, maximum, and minimum values for salinity and temperature for each year. 
+NJ2_envryear <- NJ2 %>%
+    mutate(year = year(datetime)) %>%
+    group_by(year) %>%
+    summarise(
+      min_salinity = min(salinity),
+      max_salinity = max(salinity),
+      mean_salinity = mean(salinity),
+      min_temp = min(temp),
+      max_temp = max(temp),
+      mean_temp = mean(temp))
+
+print(NJ2_envryear)
+
+```
+### Plot the months and years of data collection to check if there are any collection gaps in the data.
+```{r timeplot}
+timeplot <- ggplot(NJ2_envrmonth, aes(x = year)) +
+    geom_point(aes(y = month, color = length_salinity), size = 4) +
+    labs(x = "Time", y = "Month", title = "Timeplot for NJ2 - Hope Creek") +
+    ylim(1,12) +
+    theme_minimal()
+
+timeplot
+```
+
+### We can now calculate a list of variables that we will have collected for all sites. This will allow us to compare sites easily. We will calculate the number of observations from each site, the mean annual, maximum annual, and minimum annual value for all variables. 
+
+Our list of variables includes: 
+
+- Mean_Annual_Temperature_C: average of all available data
+- Mean_max_temperature_C: average of maximums for each year
+- Mean_min_temperature_C: average of minimums for each year
+- Temperature_st_dev: standard deviation of all available data
+- Temperature_n: total number of data points
+- Temperature_years: number of years in data set
+
+- Mean_Annual_Salinity_ppt: average of all available data
+- Mean_min_Salinity_ppt: average of minimums for each year
+- Mean_max_Salinity_ppt: average of maximums for each year
+- Salinity_st_dev: standard deviation of all available data
+- Salinity_n: total number of data points
+- Salinity_years: number of years in data set
+
+```{r}
+#Calculate temperature variables. 
+temp_quantile_10 <- quantile(NJ2$temp, 0.1)
+temp_quantile_90 <- quantile(NJ2$temp, 0.9)
+Mean_Annual_Temperature_C <- mean(NJ2$temp)
+Mean_max_temperature_C <- mean(NJ2_envryear$max_temp)
+Mean_min_temperature_C <- mean(NJ2_envryear$min_temp)
+Temperature_st_dev <- sd(NJ2$temp)
+Temperature_n <- nrow(NJ2)
+Temperature_years <- nrow(NJ2_envryear)
+
+#Create a data frame to store the temperature results
+NJ2_temp <- cbind(site_name, download_date, source_description, lat, lon, firstyear, finalyear, Mean_Annual_Temperature_C, Mean_max_temperature_C, Mean_min_temperature_C, Temperature_st_dev, Temperature_n, Temperature_years, temp_quantile_10, temp_quantile_90, collection_type)
+print(NJ2_temp)
+
+write.table(NJ2_temp, "/Users/madelineeppley/GitHub/EasternOysterEnvData/2022_SiteEnvironmentData/Seascape_Processed/seascape_temperature.csv", sep = ",", append = TRUE, col.names = FALSE, row.names = FALSE)
+
+# Write to a unique new CSV file
+```
+
+```{r}
+#Calculate the salinity variables
+salinity_quantile_10 <- quantile(NJ2$salinity, 0.1)
+salinity_quantile_90 <- quantile(NJ2$salinity, 0.9)
+Mean_Annual_Salinity_ppt <- mean(NJ2$salinity)
+Mean_max_Salinity_ppt <- mean(NJ2_envryear$max_salinity)
+Mean_min_Salinity_ppt <- mean(NJ2_envryear$min_salinity)
+Salinity_st_dev <- sd(NJ2$salinity)
+Salinity_n <- nrow(NJ2)
+Salinity_years <- nrow(NJ2_envryear)
+
+
+#Create a data frame to store the temperature results
+NJ2_salinity <- cbind(site_name, download_date, source_description, lat, lon, firstyear, finalyear, Mean_Annual_Salinity_ppt, Mean_max_Salinity_ppt, Mean_min_Salinity_ppt, Salinity_st_dev, Salinity_n, Salinity_years, salinity_quantile_10, salinity_quantile_90, collection_type)
+print(NJ2_salinity)
+
+write.table(NJ2_salinity, "/Users/madelineeppley/GitHub/EasternOysterEnvData/2022_SiteEnvironmentData/Seascape_Processed/seascape_salinity.csv", sep = ",", append = TRUE, col.names = FALSE, row.names = FALSE) 
+
+# Write to a unique new CSV file
+```
