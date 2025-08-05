@@ -1,0 +1,435 @@
+﻿Station Name,Date,Depth,Parameter,Concentration,Unit
+WW89,5/15/14,3,Temperature - 00011,15,C
+WW89,5/15/14,1,Temperature - 00011,19,C
+WW91,5/16/14,3,Temperature - 00011,16,C
+WW91,5/16/14,0.5,Temperature - 00011,17.5,C
+WW89,5/30/14,5,Temperature - 00011,12,C
+WW89,5/30/14,1,Temperature - 00011,15,C
+WW89,5/30/14,0.1,Temperature - 00011,16,C
+WW91,5/30/14,3,Temperature - 00011,16,C
+WW91,5/30/14,0.5,Temperature - 00011,17,C
+WW91,6/13/14,3,Temperature - 00011,19.5,C
+WW91,6/13/14,0.5,Temperature - 00011,20.5,C
+WW89,6/20/14,0.1,Temperature - 00011,21,C
+WW89,6/20/14,1,Temperature - 00011,21,C
+WW89,6/20/14,3,Temperature - 00011,21,C
+WW89,7/4/14,3,Temperature - 00011,24,C
+WW89,7/4/14,1,Temperature - 00011,25.5,C
+WW89,7/4/14,0.1,Temperature - 00011,26,C
+WW91,7/5/14,3,Temperature - 00011,23.5,C
+WW91,7/5/14,0.5,Temperature - 00011,24,C
+WW89,7/18/14,3,Temperature - 00011,24,C
+WW89,7/18/14,0.1,Temperature - 00011,24.5,C
+WW89,7/18/14,1,Temperature - 00011,24.5,C
+WW91,7/19/14,0.5,Temperature - 00011,24.5,C
+WW91,7/19/14,3,Temperature - 00011,24.5,C
+WW89,8/1/14,0.1,Temperature - 00011,24,C
+WW89,8/1/14,0.5,Temperature - 00011,24,C
+WW89,8/1/14,3,Temperature - 00011,24,C
+WW91,8/1/14,3,Temperature - 00011,25,C
+WW91,8/1/14,0.5,Temperature - 00011,27,C
+WW89,8/16/14,1,Temperature - 00011,24,C
+WW89,8/16/14,3,Temperature - 00011,24,C
+WW91,8/16/14,0.5,Temperature - 00011,23,C
+WW91,8/16/14,3,Temperature - 00011,24,C
+WW89,8/29/14,0.5,Temperature - 00011,23.5,C
+WW89,8/29/14,0.1,Temperature - 00011,24,C
+WW89,8/29/14,3,Temperature - 00011,24,C
+WW91,8/31/14,0.5,Temperature - 00011,24,C
+WW91,8/31/14,3,Temperature - 00011,24,C
+WW89,9/12/14,0.1,Temperature - 00011,21.5,C
+WW89,9/12/14,0.5,Temperature - 00011,21.5,C
+WW89,9/12/14,3,Temperature - 00011,22.5,C
+WW91,9/13/14,3,Temperature - 00011,19.5,C
+WW91,9/13/14,0.5,Temperature - 00011,21,C
+WW89,9/19/14,0.5,Temperature - 00011,19.5,C
+WW89,9/19/14,3,Temperature - 00011,20,C
+WW89,9/19/14,0.1,Temperature - 00011,20.5,C
+WW91,9/23/14,0.5,Temperature - 00011,20,C
+WW91,9/23/14,3,Temperature - 00011,20,C
+WW89,10/3/14,0.1,Temperature - 00011,16.5,C
+WW89,10/3/14,0.5,Temperature - 00011,17,C
+WW89,10/3/14,3,Temperature - 00011,17.5,C
+WW91,10/17/14,3,Temperature - 00011,18,C
+WW91,10/17/14,0.5,Temperature - 00011,19,C
+WW91,5/8/15,0.5,Temperature - 00011,17,C
+WW91,5/8/15,3,Temperature - 00011,15,C
+WW91,5/22/15,1,Temperature - 00011,18,C
+WW91,5/22/15,3,Temperature - 00011,16,C
+WW91,6/6/15,1,Temperature - 00011,19.5,C
+WW91,6/6/15,3,Temperature - 00011,18,C
+WW91,6/20/15,0.5,Temperature - 00011,22,C
+WW91,6/20/15,3,Temperature - 00011,21,C
+WW91,7/18/15,0.5,Temperature - 00011,25,C
+WW91,7/18/15,3,Temperature - 00011,24.5,C
+WW91,8/1/15,0.5,Temperature - 00011,27,C
+WW91,8/1/15,3,Temperature - 00011,25,C
+WW91,8/8/15,0.5,Temperature - 00011,24,C
+WW91,8/8/15,3,Temperature - 00011,24,C
+WW91,8/22/15,0.5,Temperature - 00011,27,C
+WW91,8/22/15,3,Temperature - 00011,26,C
+WW91,9/7/15,0.5,Temperature - 00011,25,C
+WW91,9/7/15,3,Temperature - 00011,24.5,C
+WW91,9/19/15,0.5,Temperature - 00011,23.5,C
+WW91,9/19/15,3,Temperature - 00011,23.5,C
+WW91,10/16/15,0.5,Temperature - 00011,17,C
+WW91,10/16/15,3,Temperature - 00011,16,C
+WW89,5/8/15,0.1,Temperature - 00011,20.39,C
+WW89,5/8/15,0.5,Temperature - 00011,20,C
+WW89,5/8/15,3,Temperature - 00011,14.89,C
+WW89,5/22/15,0.1,Temperature - 00011,19,C
+WW89,5/22/15,0.5,Temperature - 00011,18.3,C
+WW89,5/22/15,3,Temperature - 00011,18.1,C
+WW89,6/6/15,0.1,Temperature - 00011,20,C
+WW89,6/6/15,0.5,Temperature - 00011,19.9,C
+WW89,6/6/15,3,Temperature - 00011,19.1,C
+WW89,6/19/15,0.1,Temperature - 00011,22.5,C
+WW89,6/19/15,0.5,Temperature - 00011,22.5,C
+WW89,6/19/15,3,Temperature - 00011,21.4,C
+WW89,7/4/15,0.1,Temperature - 00011,25.1,C
+WW89,7/4/15,0.5,Temperature - 00011,25.4,C
+WW89,7/4/15,3,Temperature - 00011,23,C
+WW89,7/18/15,0.1,Temperature - 00011,25.5,C
+WW89,7/18/15,0.5,Temperature - 00011,25.4,C
+WW89,7/18/15,3,Temperature - 00011,25.3,C
+WW89,8/1/15,0.1,Temperature - 00011,27.4,C
+WW89,8/1/15,0.5,Temperature - 00011,28.4,C
+WW89,8/1/15,3,Temperature - 00011,26.6,C
+WW89,8/8/15,0.1,Temperature - 00011,28.5,C
+WW89,8/8/15,0.5,Temperature - 00011,28.5,C
+WW89,8/22/15,0.1,Temperature - 00011,28.5,C
+WW89,8/22/15,0.5,Temperature - 00011,28.5,C
+WW89,8/22/15,3,Temperature - 00011,27.9,C
+WW89,9/4/15,0.5,Temperature - 00011,27.8,C
+WW89,9/4/15,3,Temperature - 00011,27,C
+WW89,9/19/15,0.1,Temperature - 00011,23.7,C
+WW89,9/19/15,0.5,Temperature - 00011,24.1,C
+WW89,9/19/15,3,Temperature - 00011,24.3,C
+WW89,10/17/15,0.1,Temperature - 00011,16.4,C
+WW89,10/17/15,0.5,Temperature - 00011,16.2,C
+WW89,10/17/15,3,Temperature - 00011,17.4,C
+WW89,5/11/16,0.1,Temperature - 00011,21.2,C
+WW89,5/11/16,0.5,Temperature - 00011,20.5,C
+WW89,5/11/16,3,Temperature - 00011,20.9,C
+WW89,5/13/16,0.1,Temperature - 00011,17.5,C
+WW89,5/13/16,0.5,Temperature - 00011,17,C
+WW89,5/13/16,3,Temperature - 00011,15,C
+WW89,5/28/16,0.1,Temperature - 00011,21.9,C
+WW89,5/28/16,0.5,Temperature - 00011,21.9,C
+WW89,5/28/16,3,Temperature - 00011,18.7,C
+WW89,7/9/16,0.1,Temperature - 00011,24.4,C
+WW89,7/9/16,0.5,Temperature - 00011,24.4,C
+WW89,7/9/16,3,Temperature - 00011,24.35,C
+WW89,7/21/16,0.1,Temperature - 00011,26.7,C
+WW89,7/21/16,0.5,Temperature - 00011,26.9,C
+WW89,7/21/16,3,Temperature - 00011,25.8,C
+WW89,8/7/16,0.1,Temperature - 00011,27.7,C
+WW89,8/7/16,0.5,Temperature - 00011,27.7,C
+WW89,8/7/16,3,Temperature - 00011,27.9,C
+WW89,8/21/16,0.5,Temperature - 00011,29.5,C
+WW89,8/21/16,3,Temperature - 00011,28.2,C
+WW89,8/28/16,0.1,Temperature - 00011,28.8,C
+WW89,8/28/16,0.5,Temperature - 00011,28.8,C
+WW89,9/10/16,0.1,Temperature - 00011,24.8,C
+WW89,9/10/16,0.5,Temperature - 00011,25.5,C
+WW89,9/10/16,3,Temperature - 00011,23,C
+WW89,9/23/16,0.1,Temperature - 00011,22.5,C
+WW89,9/23/16,0.5,Temperature - 00011,22.7,C
+WW89,9/23/16,3,Temperature - 00011,22.8,C
+WW89,10/9/16,0.1,Temperature - 00011,18.2,C
+WW89,10/9/16,0.5,Temperature - 00011,18.2,C
+WW89,10/9/16,3,Temperature - 00011,18.5,C
+WW89,10/21/16,0.1,Temperature - 00011,18.7,C
+WW89,10/21/16,0.5,Temperature - 00011,18.7,C
+WW89,10/21/16,3,Temperature - 00011,17.6,C
+WW91,5/14/16,0.5,Temperature - 00011,18,C
+WW91,5/14/16,3,Temperature - 00011,15,C
+WW91,5/29/16,0.5,Temperature - 00011,24.5,C
+WW91,5/29/16,3,Temperature - 00011,19,C
+WW91,6/11/16,0.5,Temperature - 00011,22,C
+WW91,6/11/16,3,Temperature - 00011,22,C
+WW91,6/25/16,0.5,Temperature - 00011,25,C
+WW91,6/25/16,3,Temperature - 00011,23,C
+WW91,7/23/16,0.5,Temperature - 00011,27,C
+WW91,7/23/16,3,Temperature - 00011,26,C
+WW91,8/6/16,0.5,Temperature - 00011,27,C
+WW91,8/6/16,3,Temperature - 00011,26,C
+WW91,9/10/16,0.5,Temperature - 00011,25,C
+WW91,9/10/16,3,Temperature - 00011,23,C
+WW91,9/24/16,0.5,Temperature - 00011,22,C
+WW91,9/24/16,3,Temperature - 00011,21,C
+WW91,10/8/16,0.5,Temperature - 00011,18,C
+WW91,10/8/16,3,Temperature - 00011,18,C
+WW91,10/22/16,0.5,Temperature - 00011,18.5,C
+WW91,10/22/16,3,Temperature - 00011,18,C
+WW89,5/13/17,0.1,Temperature - 00011,14.16,C
+WW89,5/13/17,0.5,Temperature - 00011,14.16,C
+WW89,5/13/17,3,Temperature - 00011,11.66,C
+WW91,5/13/17,0.5,Temperature - 00011,14,C
+WW91,5/13/17,3,Temperature - 00011,12.5,C
+WW89,5/27/17,0.1,Temperature - 00011,16.5,C
+WW89,5/27/17,0.5,Temperature - 00011,16.7,C
+WW89,5/27/17,3,Temperature - 00011,15.15,C
+WW91,5/27/17,0.5,Temperature - 00011,17,C
+WW91,5/27/17,3,Temperature - 00011,15.5,C
+WW89,6/10/17,0.1,Temperature - 00011,20,C
+WW89,6/10/17,0.5,Temperature - 00011,19.7,C
+WW89,6/10/17,3,Temperature - 00011,15,C
+WW91,6/10/17,0.5,Temperature - 00011,20,C
+WW91,6/10/17,3,Temperature - 00011,17,C
+WW89,6/16/17,0.1,Temperature - 00011,23.4,C
+WW89,6/16/17,0.5,Temperature - 00011,23.4,C
+WW89,6/16/17,3,Temperature - 00011,15.6,C
+WW91,6/16/17,0.5,Temperature - 00011,21,C
+WW91,6/16/17,3,Temperature - 00011,19,C
+WW89,7/1/17,0.1,Temperature - 00011,23.3,C
+WW89,7/1/17,0.5,Temperature - 00011,23.1,C
+WW89,7/1/17,3,Temperature - 00011,20.5,C
+WW91,7/1/17,0.5,Temperature - 00011,24,C
+WW91,7/1/17,3,Temperature - 00011,21.5,C
+WW89,7/13/17,0.1,Temperature - 00011,26.5,C
+WW89,7/13/17,0.5,Temperature - 00011,27,C
+WW89,7/13/17,3,Temperature - 00011,22.65,C
+WW91,7/15/17,0.5,Temperature - 00011,22.5,C
+WW91,7/15/17,3,Temperature - 00011,22.5,C
+WW89,7/28/17,0.1,Temperature - 00011,24,C
+WW89,7/28/17,0.5,Temperature - 00011,23.5,C
+WW89,7/28/17,3,Temperature - 00011,23.1,C
+WW91,7/29/17,0.5,Temperature - 00011,23,C
+WW91,7/29/17,3,Temperature - 00011,23,C
+WW91,8/11/17,0.5,Temperature - 00011,24,C
+WW91,8/11/17,3,Temperature - 00011,23.5,C
+WW89,8/13/17,0.1,Temperature - 00011,26.2,C
+WW89,8/13/17,0.5,Temperature - 00011,26.1,C
+WW89,8/13/17,3,Temperature - 00011,24.7,C
+WW89,8/26/17,0.1,Temperature - 00011,26.1,C
+WW89,8/26/17,0.5,Temperature - 00011,26.1,C
+WW89,8/26/17,3,Temperature - 00011,24.5,C
+WW91,8/26/17,0.5,Temperature - 00011,23.5,C
+WW91,8/26/17,3,Temperature - 00011,24.5,C
+WW89,9/8/17,0.1,Temperature - 00011,20.5,C
+WW89,9/8/17,0.5,Temperature - 00011,20.6,C
+WW89,9/8/17,3,Temperature - 00011,21,C
+WW89,9/23/17,0.1,Temperature - 00011,18.5,C
+WW89,9/23/17,0.5,Temperature - 00011,18.4,C
+WW89,9/23/17,3,Temperature - 00011,18.4,C
+WW91,9/23/17,0.5,Temperature - 00011,18.5,C
+WW91,9/23/17,3,Temperature - 00011,18.5,C
+WW89,10/6/17,0.1,Temperature - 00011,20.4,C
+WW89,10/6/17,0.5,Temperature - 00011,20.1,C
+WW89,10/6/17,3,Temperature - 00011,19,C
+WW89,10/13/17,0.1,Temperature - 00011,17.9,C
+WW89,10/13/17,0.5,Temperature - 00011,17.6,C
+WW89,10/13/17,3,Temperature - 00011,18.6,C
+WW91,10/13/17,0.5,Temperature - 00011,17,C
+WW91,10/13/17,3,Temperature - 00011,18,C
+WW89,5/4/18,0.1,Temperature - 00011,19,C
+WW89,5/4/18,0.5,Temperature - 00011,18.8,C
+WW89,5/4/18,3,Temperature - 00011,11.8,C
+WW89,5/18/18,0.1,Temperature - 00011,18.4,C
+WW89,5/18/18,0.5,Temperature - 00011,17.4,C
+WW89,5/18/18,3,Temperature - 00011,13.9,C
+WW89,6/2/18,0.1,Temperature - 00011,23.5,C
+WW89,6/2/18,0.5,Temperature - 00011,24.3,C
+WW89,6/2/18,3,Temperature - 00011,19.6,C
+WW89,6/9/18,0.1,Temperature - 00011,22,C
+WW89,6/9/18,0.5,Temperature - 00011,21.6,C
+WW89,6/9/18,3,Temperature - 00011,19.1,C
+WW89,6/24/18,0.1,Temperature - 00011,23,C
+WW89,6/24/18,,Temperature - 00011,21.1,C
+WW89,7/29/18,0.1,Temperature - 00011,29.3,C
+WW89,7/29/18,0.5,Temperature - 00011,29.3,C
+WW89,7/29/18,3,Temperature - 00011,26.5,C
+WW89,8/18/18,0.1,Temperature - 00011,29.3,C
+WW89,8/18/18,0.5,Temperature - 00011,29.3,C
+WW89,8/18/18,3,Temperature - 00011,26.5,C
+WW89,9/2/18,0.1,Temperature - 00011,26,C
+WW89,9/2/18,0.5,Temperature - 00011,26.5,C
+WW89,9/2/18,3,Temperature - 00011,25.7,C
+WW89,9/15/18,0.1,Temperature - 00011,23,C
+WW89,9/15/18,0.5,Temperature - 00011,22.9,C
+WW89,9/15/18,3,Temperature - 00011,22.4,C
+WW89,9/29/18,0.1,Temperature - 00011,19.9,C
+WW89,9/29/18,0.5,Temperature - 00011,20,C
+WW89,9/29/18,3,Temperature - 00011,20.2,C
+WW89,10/19/18,0.1,Temperature - 00011,13.5,C
+WW89,10/19/18,0.5,Temperature - 00011,14.1,C
+WW89,10/19/18,3,Temperature - 00011,18.4,C
+WW91,5/5/18,0.5,Temperature - 00011,17,C
+WW91,5/5/18,3,Temperature - 00011,13,C
+WW91,5/18/18,0.5,Temperature - 00011,18,C
+WW91,5/18/18,3,Temperature - 00011,16,C
+WW91,6/2/18,0.5,Temperature - 00011,22.5,C
+WW91,6/9/18,0.5,Temperature - 00011,23,C
+WW91,6/9/18,3,Temperature - 00011,19,C
+WW91,6/23/18,0.5,Temperature - 00011,23,C
+WW91,6/23/18,3,Temperature - 00011,23,C
+WW91,7/7/18,0.5,Temperature - 00011,25,C
+WW91,7/7/18,3,Temperature - 00011,22,C
+WW91,7/13/18,0.5,Temperature - 00011,24,C
+WW91,7/13/18,3,Temperature - 00011,24,C
+WW91,7/27/18,0.5,Temperature - 00011,26,C
+WW91,7/27/18,3,Temperature - 00011,26,C
+WW91,8/11/18,0.5,Temperature - 00011,27,C
+WW91,8/11/18,3,Temperature - 00011,27,C
+WW91,8/18/18,0.5,Temperature - 00011,28,C
+WW91,8/18/18,3,Temperature - 00011,27,C
+WW91,9/1/18,0.5,Temperature - 00011,25.5,C
+WW91,9/1/18,3,Temperature - 00011,25.5,C
+WW91,9/15/18,0.5,Temperature - 00011,22,C
+WW91,9/15/18,3,Temperature - 00011,22,C
+WW91,9/29/18,0.5,Temperature - 00011,18,C
+WW91,9/29/18,3,Temperature - 00011,19,C
+WW91,10/6/18,0.5,Temperature - 00011,18,C
+WW91,10/6/18,3,Temperature - 00011,19,C
+WW89,5/11/19,3,Temperature - 00011,14,C
+WW89,6/8/19,0.5,Temperature - 00011,21.5,C
+WW89,6/8/19,3,Temperature - 00011,18.8,C
+WW89,6/23/19,0.5,Temperature - 00011,21.5,C
+WW89,6/23/19,3,Temperature - 00011,19.5,C
+WW89,7/10/19,0.5,Temperature - 00011,25,C
+WW89,7/10/19,3,Temperature - 00011,23,C
+WW89,7/20/19,0.5,Temperature - 00011,27.9,C
+WW89,7/20/19,3,Temperature - 00011,25.3,C
+WW89,8/4/19,0.5,Temperature - 00011,29.3,C
+WW89,8/4/19,3,Temperature - 00011,28.2,C
+WW89,8/17/19,0.1,Temperature - 00011,25.9,C
+WW89,8/17/19,0.5,Temperature - 00011,25.9,C
+WW89,8/17/19,3,Temperature - 00011,25.5,C
+WW89,9/1/19,0.1,Temperature - 00011,24,C
+WW89,9/1/19,0.5,Temperature - 00011,24,C
+WW89,9/1/19,3,Temperature - 00011,24,C
+WW89,9/14/19,0.1,Temperature - 00011,20.4,C
+WW89,9/14/19,0.5,Temperature - 00011,20.7,C
+WW89,9/14/19,3,Temperature - 00011,21,C
+WW89,9/21/19,0.1,Temperature - 00011,18.5,C
+WW89,9/21/19,0.5,Temperature - 00011,19.2,C
+WW89,9/21/19,3,Temperature - 00011,19.4,C
+WW89,10/5/19,0.1,Temperature - 00011,18.2,C
+WW89,10/5/19,0.5,Temperature - 00011,17.5,C
+WW89,10/5/19,3,Temperature - 00011,17.6,C
+WW89,10/19/19,0.1,Temperature - 00011,13.6,C
+WW89,10/19/19,0.5,Temperature - 00011,13.9,C
+WW89,10/19/19,3,Temperature - 00011,14.9,C
+WW91,5/10/19,0.5,Temperature - 00011,13,C
+WW91,5/10/19,3,Temperature - 00011,15,C
+WW91,5/24/19,0.5,Temperature - 00011,18.5,C
+WW91,5/24/19,3,Temperature - 00011,16,C
+WW91,6/8/19,0.5,Temperature - 00011,22,C
+WW91,6/8/19,3,Temperature - 00011,19,C
+WW91,7/8/19,0.5,Temperature - 00011,25,C
+WW91,7/8/19,3,Temperature - 00011,23,C
+WW91,7/19/19,0.5,Temperature - 00011,25,C
+WW91,7/19/19,3,Temperature - 00011,24.5,C
+WW91,8/2/19,0.5,Temperature - 00011,26,C
+WW91,8/2/19,3,Temperature - 00011,26,C
+WW91,8/16/19,0.5,Temperature - 00011,25,C
+WW91,8/16/19,3,Temperature - 00011,25,C
+WW91,8/29/19,0.5,Temperature - 00011,25,C
+WW91,8/29/19,3,Temperature - 00011,24,C
+WW91,9/14/19,0.5,Temperature - 00011,20,C
+WW91,9/14/19,3,Temperature - 00011,21,C
+WW91,9/21/19,0.5,Temperature - 00011,20,C
+WW91,9/21/19,3,Temperature - 00011,20,C
+WW91,10/4/19,0.5,Temperature - 00011,18,C
+WW91,10/4/19,3,Temperature - 00011,18,C
+WW089,6/8/20,NA,"Salinity, (ppt) - 00480",16,ppt
+WW089,6/8/20,NA,"Salinity, (ppt) - 00480",19.5,ppt
+WW089,6/13/20,NA,"Salinity, (ppt) - 00480",24,ppt
+WW089,6/13/20,NA,"Salinity, (ppt) - 00480",26,ppt
+WW089,6/26/20,NA,"Salinity, (ppt) - 00480",17.5,ppt
+WW089,6/26/20,NA,"Salinity, (ppt) - 00480",20,ppt
+WW089,7/9/20,NA,"Salinity, (ppt) - 00480",14,ppt
+WW089,7/9/20,NA,"Salinity, (ppt) - 00480",18,ppt
+WW089,7/9/20,NA,"Salinity, (ppt) - 00480",18,ppt
+WW089,7/9/20,NA,"Salinity, (ppt) - 00480",19.5,ppt
+WW089,7/30/20,NA,"Salinity, (ppt) - 00480",18,ppt
+WW089,7/30/20,NA,"Salinity, (ppt) - 00480",20,ppt
+WW089,7/30/20,NA,"Salinity, (ppt) - 00480",23.5,ppt
+WW089,7/30/20,NA,"Salinity, (ppt) - 00480",19,ppt
+WW089,8/6/20,NA,"Salinity, (ppt) - 00480",17,ppt
+WW089,8/6/20,NA,"Salinity, (ppt) - 00480",21.5,ppt
+WW089,8/6/20,NA,"Salinity, (ppt) - 00480",24.5,ppt
+WW089,8/6/20,NA,"Salinity, (ppt) - 00480",19,ppt
+WW089,8/19/20,NA,"Salinity, (ppt) - 00480",22,ppt
+WW089,8/19/20,NA,"Salinity, (ppt) - 00480",25,ppt
+WW089,8/19/20,NA,"Salinity, (ppt) - 00480",24,ppt
+WW089,9/1/20,NA,"Salinity, (ppt) - 00480",23,ppt
+WW089,9/1/20,NA,"Salinity, (ppt) - 00480",24.5,ppt
+WW089,9/1/20,NA,"Salinity, (ppt) - 00480",25.5,ppt
+WW089,9/1/20,NA,"Salinity, (ppt) - 00480",25,ppt
+WW089,9/14/20,NA,"Salinity, (ppt) - 00480",25,ppt
+WW089,9/14/20,NA,"Salinity, (ppt) - 00480",25.5,ppt
+WW089,9/26/20,NA,"Salinity, (ppt) - 00480",26,ppt
+WW089,9/26/20,NA,"Salinity, (ppt) - 00480",27,ppt
+WW089,10/9/20,NA,"Salinity, (ppt) - 00480",26,ppt
+WW089,10/9/20,NA,"Salinity, (ppt) - 00480",27.5,ppt
+WW089,10/24/20,NA,"Salinity, (ppt) - 00480",25,ppt
+WW089,10/24/20,NA,"Salinity, (ppt) - 00480",27,ppt
+WW091,6/13/20,NA,"Salinity, (ppt) - 00480",19,ppt
+WW091,6/25/20,NA,"Salinity, (ppt) - 00480",18,ppt
+WW091,6/25/20,NA,"Salinity, (ppt) - 00480",20,ppt
+WW091,7/11/20,NA,"Salinity, (ppt) - 00480",19.5,ppt
+WW091,7/11/20,NA,"Salinity, (ppt) - 00480",20,ppt
+WW091,7/25/20,NA,"Salinity, (ppt) - 00480",20,ppt
+WW091,7/25/20,NA,"Salinity, (ppt) - 00480",23.5,ppt
+WW091,8/8/20,NA,"Salinity, (ppt) - 00480",21.5,ppt
+WW091,8/8/20,NA,"Salinity, (ppt) - 00480",24.5,ppt
+WW091,9/4/20,NA,"Salinity, (ppt) - 00480",23.5,ppt
+WW091,9/4/20,NA,"Salinity, (ppt) - 00480",25.5,ppt
+WW091,9/11/20,NA,"Salinity, (ppt) - 00480",25,ppt
+WW091,9/11/20,NA,"Salinity, (ppt) - 00480",25,ppt
+WW091,9/25/20,NA,"Salinity, (ppt) - 00480",26,ppt
+WW091,9/25/20,NA,"Salinity, (ppt) - 00480",27,ppt
+WW091,10/10/20,NA,"Salinity, (ppt) - 00480",27,ppt
+WW091,10/10/20,NA,"Salinity, (ppt) - 00480",27,ppt
+WW091,10/24/20,NA,"Salinity, (ppt) - 00480",25,ppt
+WW091,10/24/20,NA,"Salinity, (ppt) - 00480",27,ppt
+WW089,5/4/21,0.5,"Salinity, (ppt) - 00480",21,ppt
+WW089,5/4/21,3,"Salinity, (ppt) - 00480",22,ppt
+WW089,5/18/21,1,"Salinity, (ppt) - 00480",15,ppt
+WW089,5/18/21,3,"Salinity, (ppt) - 00480",22,ppt
+WW089,6/2/21,1,"Salinity, (ppt) - 00480",15,ppt
+WW089,6/2/21,3,"Salinity, (ppt) - 00480",20,ppt
+WW089,6/20/21,0.5,"Salinity, (ppt) - 00480",16.5,ppt
+WW089,6/20/21,3,"Salinity, (ppt) - 00480",20,ppt
+WW089,7/5/21,0.5,"Salinity, (ppt) - 00480",19.5,ppt
+WW089,7/5/21,3,"Salinity, (ppt) - 00480",23,ppt
+WW089,7/13/21,0.5,"Salinity, (ppt) - 00480",15,ppt
+WW089,7/13/21,3,"Salinity, (ppt) - 00480",20,ppt
+WW089,7/20/21,0.5,"Salinity, (ppt) - 00480",17,ppt
+WW089,7/20/21,3,"Salinity, (ppt) - 00480",21,ppt
+WW089,8/7/21,0.5,"Salinity, (ppt) - 00480",17.5,ppt
+WW089,8/7/21,3,"Salinity, (ppt) - 00480",20.5,ppt
+WW089,8/11/21,0.5,"Salinity, (ppt) - 00480",17,ppt
+WW089,8/11/21,3,"Salinity, (ppt) - 00480",21.5,ppt
+WW089,8/28/21,0.5,"Salinity, (ppt) - 00480",20,ppt
+WW089,8/28/21,3,"Salinity, (ppt) - 00480",22.5,ppt
+WW089,9/8/21,0.5,"Salinity, (ppt) - 00480",15,ppt
+WW089,9/8/21,3,"Salinity, (ppt) - 00480",20,ppt
+WW089,9/23/21,0.5,"Salinity, (ppt) - 00480",18,ppt
+WW089,9/23/21,3,"Salinity, (ppt) - 00480",21,ppt
+WW089,10/9/21,0.5,"Salinity, (ppt) - 00480",18,ppt
+WW089,10/9/21,3,"Salinity, (ppt) - 00480",21,ppt
+WW089,10/14/21,0.5,"Salinity, (ppt) - 00480",21,ppt
+WW091,5/7/21,0.5,"Salinity, (ppt) - 00480",16.5,ppt
+WW091,5/7/21,3,"Salinity, (ppt) - 00480",22.5,ppt
+WW091,6/5/21,0.5,"Salinity, (ppt) - 00480",17,ppt
+WW091,6/5/21,3,"Salinity, (ppt) - 00480",17.5,ppt
+WW091,7/10/21,0.5,"Salinity, (ppt) - 00480",16,ppt
+WW091,7/10/21,3,"Salinity, (ppt) - 00480",20,ppt
+WW091,7/24/21,0.5,"Salinity, (ppt) - 00480",19,ppt
+WW091,7/24/21,3,"Salinity, (ppt) - 00480",22,ppt
+WW091,8/8/21,0.5,"Salinity, (ppt) - 00480",15,ppt
+WW091,8/8/21,3,"Salinity, (ppt) - 00480",21.5,ppt
+WW091,8/14/21,0.5,"Salinity, (ppt) - 00480",17.5,ppt
+WW091,8/14/21,3,"Salinity, (ppt) - 00480",21,ppt
+WW091,8/27/21,0.5,"Salinity, (ppt) - 00480",19.5,ppt
+WW091,8/27/21,3,"Salinity, (ppt) - 00480",22,ppt
+WW091,9/11/21,0.5,"Salinity, (ppt) - 00480",15,ppt
+WW091,9/11/21,3,"Salinity, (ppt) - 00480",20.5,ppt
+WW091,9/22/21,0.5,"Salinity, (ppt) - 00480",18,ppt
+WW091,9/22/21,3,"Salinity, (ppt) - 00480",22,ppt
+WW091,10/10/21,0.5,"Salinity, (ppt) - 00480",21,ppt
+WW091,10/10/21,3,"Salinity, (ppt) - 00480",21.5,ppt
+WW091,10/20/21,0.5,"Salinity, (ppt) - 00480",21,ppt
