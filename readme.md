@@ -13,3 +13,9 @@ Some raw data files are too large for github (over 25 mb). For these sites, raw 
 - SC1_raw_temp.csv
 - RI2_raw.csv
 - NH1_raw.csv
+- NC1_raw.csv
+- LA3_raw.csv
+- GA3_raw.csv
+- FL2_raw.csv
+- FL1_raw.csv
+- AL1_raw.csv
