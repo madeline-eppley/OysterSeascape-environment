@@ -1,9 +1,11 @@
 ### Non-correlated environmental variables
-- temperature and salinity quantiles (.1 and .9 for both)
-- standard deviation
+- Temperature and salinity quantiles (.1 and .9 for both)
+- Standard deviation
 
-### large files
-Some raw data files are too large for github (over 25 mb). For these sites, raw data can be accessed by MGE, who has retained a backed-up copy of the raw data for these sites. This list includes: 
+### Large files
+Some raw data files are too large for GitHub (over 25 mb). For these sites, raw data can be accessed on BCO-DMO in the Dataset 'Range wide eastern oyster seascape genomics dataset (collected 2022-2023) from the CviMVP - Model Validation Project'. MGE (eppley.m@northeastern.edu) has also retained a copy of the raw data for each of these sites that is available upon request. 
+
+This list includes: 
 - SC1_raw_temp.csv
 - RI2_raw.csv
 - NH1_raw.csv
