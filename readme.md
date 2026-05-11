@@ -1,10 +1,14 @@
 # Eastern oyster seascape environmental data
 ##### last updated by MGE on 5/11/2026
+##### funded by NSF OCE-2043905
 
 ### Publications that use this data
 1. [Range-wide genetic population structure and environmental adaptation in the eastern oyster (Crassostrea virginica) provides insight for aquaculture](https://doi.org/10.64898/2026.03.30.715280)
 2. [Contrasting effects of geographic distance, environmental distance, and intraspecific diversity on the performance of a marine invertebrate in common gardens
 ](https://doi.org/10.64898/2026.04.02.716183)
+
+### File structure 
+`Cvi_SeascapeDat_Metadata - seascape_abiotic_biotic_envr.csv` contains metadata for `Cvi_seascape_abiotic_biotic_envr_BCO-DMO.csv`. These file versions (v1) were uploaded to BCO-DMO as a Dataset titled ['Range wide eastern oyster seascape genomics dataset (collected 2022-2023) from the CviMVP - Model Validation Project'](https://www.bco-dmo.org/project/876610) under the project 'Project: CAREER: Evaluation of machine learning algorithms for understanding and predicting adaptation to multivariate environments with a Model Validation Program (MVP)'.  
 
 ### Temperature and Salinity Methods
 Temperature and salinity data for each sampling location (Supp. Table S2) was downloaded from sources with routine monitoring (e.g., National Estuarine Research Reserve System, National Parks Service) (Helmuth et al., 2006; Nadeau et al., 2017). Raw environmental data were converted into a standardized format using a custom R script (Data Accessibility).
