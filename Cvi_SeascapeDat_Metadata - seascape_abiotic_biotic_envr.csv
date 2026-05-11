@@ -1,0 +1,56 @@
+Column Name,Description,Units,Missing Data Identifier
+ID_SiteDate,"Sampling site information, including estuary, river, or bay name and the date of sampling",NA,NA
+Site_Order,"Site number ordered by latitude going from Southeast to Northeast, starting at 2 (Texas) and ending at 40 (Canada)",NA,NA
+State_Abbrev,"Two letter abbreviation of the state (USA) where sampling occurred, Canada = CN",NA,NA
+Site_Key,A unique ID  (8 character alphanumeric) for this table (primary key),NA,NA
+Date,Date,MM/DD/YYYY,NA
+Collection_method,"Description of how the oysters were collected (subtidal dredge, subtidal diving, tonging, intertidal)",NA,NA
+Depth_m,Depth in meters of sampling,m,NA
+Latitude_manual,Latitude of the sampling site in decimal format WGS84,Latitude decimal,NA
+Longitude_manual,Longitude of the sampling site in decimal format WGS84,Longitude decimal,NA
+Dermo_Prevalence,Site level prevalence (number of individuals infected / total number of individuals) of Dermo infection,NA,NA
+MSX_Prevalence,Site level prevalence (number of individuals infected / total number of individuals) of MSX infection,NA,NA
+Pea_crab,Site level prevalence (number of individuals infected / total number of individuals) of Pea crab infection,NA,NA
+Polydora.active,"Site level prevalence (number of individuals infected / total number of individuals) of Polydora worm infection as quantified by active worms, evidence of shell tunneling, and/or internal shell blisters",NA,NA
+Boring_sponge,Site level prevalence (number of individuals infected / total number of individuals) of Boring sponge infection,NA,NA
+Total_area_infected_num,"Averaged total shell area infected across both valves of each individual with Polydora sp. (websterii) blisters, averaged at the site level ",NA,NA
+dermo_prev_percent,Site level percent prevalence (number of individuals infected / total number of individuals) of Dermo infection,Percentage,NA
+msx_prev_percent,Site level percent prevalence (number of individuals infected / total number of individuals) of MSX infection,Percentage,NA
+boringsponge_prev_percent,Site level percent prevalence (number of individuals infected / total number of individuals) of Boring sponge infection,Percentage,NA
+polydoraactive_prev_percent,"Site level percent prevalence (number of individuals infected / total number of individuals) of Polydora worm infection as quantified by active worms, evidence of shell tunneling, and/or internal shell blisters",Percentage,NA
+intensity_msx,Site level averaged MSX intensity on a scale from 0-5 across all individuals sampled at that location,NA,NA
+Cq_Mean_MSX,Site level averaged MSX qPCR Cq (cycle amplification) value across all individuals across all individuals successfully amplified from that sampling location,NA,NA
+SQ_Mean_MSX,Site level averaged MSX qPCR Sq (Starting quantification of targeted MSX DNA) across all individuals successfully amplified from that sampling location,NA,NA
+intensity_dermo,Site level averaged Dermo intensity on a scale from 0-5 across all individuals sampled at that location,NA,NA
+Cq_Mean_Dermo,Site level averaged Dermo qPCR Cq (cycle amplification) value across all individuals across all individuals successfully amplified from that sampling location,NA,NA
+SQ_Mean_Dermo,Site level averaged Dermo qPCR Sq (Starting quantification of targeted MSX DNA) across all individuals successfully amplified from that sampling location,NA,NA
+download_date_sal,Date that the salinity data was downloaded or obtained,NA,NA
+source_description_sal,A description to where the salinity data was obtained. URLs are in the R scripts,NA,NA
+lat_sal,Latitude of the buoy used for the salinity data for the site,Latitude decimal,NA
+lon_sal,Longitude of the buoy used for the salinity data for the site,Longitude decimal,NA
+firstyear_sal,Earliest year of the time series data used to summarize salinity data for a site.,Year,NA
+finalyear_sal,Latest year of the time series data used to summarize salinity data for a site.,Year,NA
+Mean_Annual_Salinity_ppt,Mean of the annual salinity in parts per thousand ,ppt,NA
+Mean_max_Salinity_ppt,Mean of the monthly maximum salinity in parts per thousand ,ppt,NA
+Mean_min_Salinity_ppt,Mean of the monthly minimum salinity in parts per thousand ,ppt,NA
+Salinity_st_dev,Standard deviation of the historical salinity time series,ppt,NA
+Salinity_n,Number of observations in the salinity timeseries,NA,NA
+Salinity_years,Number of years covered by the salinity time series,NA,NA
+salinity_quantile_10,0.1 quantile of the historical salinity timeseries for all available data.,ppt,NA
+salinity_quantile_90,0.9 quantile of the historical salinity timeseries for all available data.,ppt,NA
+collection_type_sal,"Whether the salinity data timeseries was continuous, intermittent, bimonthly, weekly, monthly, or seasonal",NA,NA
+download_date_temp,Date that the temperature data was downloaded or obtained,NA,NA
+source_description_temp,A description to where the temperature data was obtained. URLs are in the R scripts,NA,NA
+lat_temp,Latitude of the buoy used for the temperature data for the site in decimal format,Latitude decimal,NA
+lon_temp,Longitude of the buoy used for the temperature data for the site in decimal format,Longitude decimal,NA
+firstyear_temp,Earliest year of the time series data used to summarize temperature data for a site.,Year,NA
+finalyear_temp,Latest year of the time series data used to summarize temperature data for a site.,Year,NA
+Mean_Annual_Temperature_C,Mean of the annual temperature in parts per thousand ,C,NA
+Mean_max_temperature_C,Mean of the monthly maximum temperature in parts per thousand ,C,NA
+Mean_min_temperature_C,Mean of the monthly minimum temperature in parts per thousand ,C,NA
+Temperature_st_dev,Standard deviation of the historical temperature time series,C,NA
+Temperature_n,Number of observations in the temperature timeseries,NA,NA
+Temperature_years,Number of years covered by the temperature time series,NA,NA
+temp_quantile_10,0.1 quantile of the historical temperature timeseries for all available data.,C,NA
+temp_quantile_90,0.9 quantile of the historical temperature timeseries for all available data.,C,NA
+collection_type_temp,"Whether the temperature data timeseries was continuous, intermittent, bimonthly, weekly, monthly, or seasonal",NA,NA
