@@ -1,6 +1,5 @@
-# Eastern oyster seascape environmental data
-##### last updated by MGE on 5/11/2026
-##### funded by NSF OCE-2043905
+# Environmental data from the eastern oyster (C. virginica) seascape
+##### last updated by MGE on 5/11/2026; funded by NSF OCE-2043905
 
 ### Publications that use this data
 1. [Range-wide genetic population structure and environmental adaptation in the eastern oyster (Crassostrea virginica) provides insight for aquaculture](https://doi.org/10.64898/2026.03.30.715280)
