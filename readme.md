@@ -1,5 +1,4 @@
-# Environmental data from the eastern oyster (C. virginica) seascape
-[![DOI](https://zenodo.org/badge/1235800140.svg)](https://doi.org/10.5281/zenodo.20128037)
+# Environmental data from the eastern oyster (C. virginica) seascape [![DOI](https://zenodo.org/badge/1235800140.svg)](https://doi.org/10.5281/zenodo.20128037)
 ##### last updated by MGE on 5/11/2026; funded by NSF OCE-2043905
 
 ### Publications that use this data
