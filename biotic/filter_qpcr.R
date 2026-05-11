@@ -5,7 +5,7 @@
 library(dplyr)
 setwd("/Users/madelineeppley/Desktop/seadispub")
 
-CQ_CUTOFF <- 37  # samples with Cq > this value will be considered NEG
+cq_cutoff <- 37  # samples with Cq > this value will be considered NEG
 # qpcr data subset from raw outputs
 qpcr <- read.csv("/Users/madelineeppley/Desktop/cviqpcr/20250806_results/all_plates_qpcr_data.csv")
 
@@ -27,7 +27,7 @@ dermo <- dermo_rep1[!is.na(dermo_rep1$clean_ID),]
 
 # for dermo apply cq cutoff for inf status
 dermo$status_Cq37 <- ifelse(
-  dermo$Cq_Mean > 0 & dermo$Cq_Mean <= CQ_CUTOFF, 
+  dermo$Cq_Mean > 0 & dermo$Cq_Mean <= cq_cutoff, 
   "Positive", 
   "Negative")
 
@@ -40,7 +40,7 @@ dermo$intensity_Cq37[dermo$Cq_Mean > 25 & dermo$Cq_Mean <= 37] <- 1 # low
 
 # msx cq cutoff
 msx$status_Cq37 <- ifelse(
-  msx$Cq_Mean > 0 & msx$Cq_Mean <= CQ_CUTOFF, 
+  msx$Cq_Mean > 0 & msx$Cq_Mean <= cq_cutoff, 
   "Positive", 
   "Negative")
 
